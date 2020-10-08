@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 100%;
+}
+header h1 img{
+	width: 100%;
+	max-width: 300px;
+}
+#main_img {
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+#main_img ul li img {
+	width: 100%;
+}
+#page {
+	width: auto;
+	float: none;
+}
+nav ul li#nav_home,
+nav ul li#nav_shop,
+nav ul li#nav_news,
+nav ul li#nav_menu {
+	width: 100%;
+}
+nav ul li#nav_home a,
+nav ul li#nav_shop a,
+nav ul li#nav_news a,
+nav ul li#nav_menu a {
+	display: block;
+	height: auto;
+	margin-bottom: 1px;
+	border: 2px solid #060;
+	padding: 15px 0 15px 0;
+	background-image: none;
+	font-size: 20px;
+	color: #060;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li#nav_home a:hover,
+nav ul li#nav_shop a:hover,
+nav ul li#nav_news a:hover,
+nav ul li#nav_menu a:hover {
+	background-color: #3C9;
+}
+.news ul li {
+	padding: 10px 0 10px 0;
+	text-indent: 0;
+}
+.news ul li time {
+	display: block;
+	width: auto;
+	margin-bottom: 5px;
+}
+.best {
+	width: 100%;
+	max-width: 200px;
+	margin-top: 50px;
+	float: none;
+}
+.best img {
+	width: 100%;
+	max-width: 200px;
+}
+#main .prise {
+	text-align: left;
+	margin-top: 0px;
+	color: #390;
+}
+#main table {
+	width: 100%;
+}
